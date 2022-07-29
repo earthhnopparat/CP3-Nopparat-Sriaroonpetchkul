@@ -1,0 +1,23 @@
+test1 = int(input("ข้อสอบส่วนที่ 1 : "))
+test2 = int(input("ข้อสอบส่วนที่ 2 : "))
+test3 = int(input("ข้อสอบส่วนที่ 3 : "))
+test4 = int(input("ข้อสอบส่วนที่ 4 : "))
+test5 = int(input("ข้อสอบส่วนที่ 5 : "))
+score = int(sum(test1,test2))
+print("คะแนนรวม เท่ากับ", score)
+if score >= 80 :
+    print("Grade A")
+elif score >= 75 :
+    print("Grade B+")
+elif score >= 70 :
+    print("Grade B")
+elif score >= 65 :
+    print("Grade C+")
+elif score >= 60 :
+    print("Grade C")
+elif score >= 55 :
+    print("Grade D+")
+elif score >= 50 :
+    print("Grade D")
+else:
+    print("Grade F")
