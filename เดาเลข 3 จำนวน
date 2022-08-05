@@ -1,9 +1,8 @@
-number_correct = [25, 52, 75]
+number_correct = 25, 52, 75
 number_guess = []
 while number_guess != number_correct:
     number_guess = int(input("ลองเดาเลข :"))
     if number_guess == number_correct:
         print("Yeah!!!")
-    else:
-        print("Nope!!!")
-print("ขอบคุณที่เล่น")
+    else :
+        print("Nope !!!")
